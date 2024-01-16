@@ -1,3 +1,3 @@
 # desafio3
 
-![Captura de Pantalla](assets/img/bg-header.jpg)
+![Captura de Pantalla](assests/img/bg-header.jpg)
