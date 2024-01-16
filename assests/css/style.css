@@ -1,0 +1,126 @@
+body{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+.container{
+    font-size: 50px;
+    max-width: 1280px;
+    width: 100%;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 73px;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+.titulo{
+color: #ffffff;
+font-family:  'Raleway', sans-serif;
+font-size: 3rem;
+margin: 0px;
+font-weight: 300;
+text-transform: uppercase;
+}
+#section1{
+    min-height: 727px;
+    width: 100%;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+}
+#section2{
+    min-height: 348px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    background: #000000;
+}
+#section2 .contenedor{
+    min-width: 400px;
+}
+.img-2{
+    width: 400px;
+    height: auto;
+}
+#section2 p{
+    width: 500px;
+    height: auto;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-family:  'Raleway', sans-serif;
+    text-align: justify;
+}
+#section3{
+min-height: 348px;
+background: #221E17;
+padding: 50px 0px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+}
+#section3 .contenedor {
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.cajas{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cajas i{
+    font-size: 5rem;
+    color: #ffffff;
+}
+.cajas p{
+    font-size: 2rem;
+    color: #ffffff;
+}
+#section4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
+}
+#section4 .contenedor{
+    width: 400px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+#section4 .contenedor img{
+    width: 316px;
+    height: 202px;
+}
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    min-height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #ffffff;
+    font-family:  'Raleway', sans-serif;
+    font-size: 1rem;
+}
